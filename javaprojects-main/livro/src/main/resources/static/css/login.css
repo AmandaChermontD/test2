@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+.welcome-text {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+ .logo-text {
+	 color:rgb(128, 128, 128);
+	 text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}	 
+
+.access-text {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.book-text {
+	color: rgb(255, 255, 255);
+	text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #0c0ce94d;
+}
+
+	
+.container {
+	width: 80%;
+	height: 80vh;
+	display: flex;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.212);
+	}
+
+.form-image {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(128, 255, 128);
+	padding: 1rem;
+	border-radius: 20px;
+}
+
+.form-image p {
+	margin-bottom: auto;
+	font-size: 24px;
+}
+
+.welcome-message {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	/* Adicionado negrito */
+}
+
+.form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	padding: 3rem;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    color: green;
+    border: 2px solid green;
+
+    margin: center; /* Centraliza o botão */
+}
+
+
+
+.label-input {
+    position: relative;
+    margin-bottom: 1.1rem;
+}
+
+.label-input i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.label-input input {
+    padding: 1rem; /* Ajuste o padding conforme necessário */
+    border: 1px solid #ccc; /* Cor da borda */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 0.9rem; /* Tamanho da fonte */
+    width: calc(180% - 40px); /* Ajuste a largura conforme necessário, considerando o ícone */
+    padding-left: 40px; /* Espaço para o ícone */
+}
+
+.label-input input:focus {
+    outline: none; /* Remova o contorno ao focar */
+    border-color: #6c63ff; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5); /* Sombra ao focar */
+}
+
+
+
